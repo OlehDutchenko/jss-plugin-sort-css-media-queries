@@ -1,33 +1,14 @@
 # jss-plugin-sort-css-media-queries
 
+![Test](https://github.com/dutchenkoOleg/jss-plugin-sort-css-media-queries/workflows/Test/badge.svg)
+![Build](https://github.com/dutchenkoOleg/jss-plugin-sort-css-media-queries/workflows/Build/badge.svg)
+
 JSS plugin for sort CSS media queries
 
 ## Install
 
 ```bash
 npm i jss-plugin-sort-css-media-queries
-```
-
-## Usage
-
-Simple use plugin
-
-```ts
-import jss from 'jss';
-import sortCssMediaQueries from 'jss-plugin-sort-css-media-queries';
-
-jss.use(sortCssMediaQueries(/* pluginOptions */));
-```
-
-Or create an own JSS instance
-
-```ts
-import { create } from 'jss';
-import sortCssMediaQueries from 'jss-plugin-sort-css-media-queries';
-
-const jss = create({
-    plugins: [sortCssMediaQueries(/* pluginOptions */)]
-});
 ```
 
 ## Plugin options
