@@ -63,7 +63,6 @@ function recursiveInnerAndGetQueries(
 		const bWeight = b === UN_QUERIED ? 0 : b.length;
 		if (aWeight > 0 && bWeight > 0) {
 			if (pluginOptions.desktopFirst) {
-				console.log('xxxxxxx');
 				return sortCSSmq.desktopFirst(a, b);
 			} else {
 				return sortCSSmq(a, b);

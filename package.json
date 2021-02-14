@@ -1,6 +1,6 @@
 {
   "name": "jss-plugin-sort-css-media-queries",
-  "version": "1.0.0-beta.0",
+  "version": "1.0.1-beta.0",
   "description": "JSS plugin for sort CSS media queries",
   "main": "dist/index.js",
   "files": [
@@ -23,6 +23,18 @@
     "name": "Oleg Dutchenko",
     "email": "dutchenko.o.dev@gmail.com"
   },
+  "keywords": [
+    "mobile-first",
+    "combine",
+    "mq",
+    "media",
+    "queries",
+    "mobile-first",
+    "desktop-first",
+    "sort",
+    "jss",
+    "css-in-js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dutchenkoOleg/jss-plugin-sort-css-media-queries.git"
